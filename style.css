@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(175, 175, 175);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #949494;
+}
+
+body {
+    background: #242248 !important;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f8f9fa !important;
+    color: #3e3e3e;
+    overflow-y: auto;
+}
+
+.top-content {
+    padding: 20px 20px 40px 20px;
+    margin-bottom: -20px;
+    background: linear-gradient(157.06deg, rgba(122, 54, 176, 0.8) -4.07%, rgba(36, 19, 145, 0.8) 106.19%);
+}
+
+.content {
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.list-bank:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown-lang {
+    min-width: 2rem !important;
+    padding: 4px !important
+}
+
+.footer {
+    padding: 20px;
+    font-size: 9pt;
+}
+
+.btn-copy:hover {
+    background-color: #F6EEFF;
+    padding-top: 6px;
+    border-radius: 5px;
+}
+
+.card-payment {
+    border-radius: 0 0 5px 5px !important;
+}
+
+
+/* CUSTOM */
+.nav-payment .nav-tabs .nav-link {
+    color: #565656;
+    border-radius: 0px;
+}
+
+.nav-payment .nav-tabs .nav-link:hover {
+    color: #6644C4;
+    border-radius: 0px;
+    border: none;
+}
+
+.nav-payment .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 3px solid #6644C4;
+    background-color: #ededed;
+    border-radius: 0px;
+    color: #6644C4;
+}
+
+
+/* Font Size */
+.fs-8 {
+    font-size: 8pt !important;
+}
+
+.fs-9 {
+    font-size: 9pt !important;
+}
+
+.fs-10 {
+    font-size: 10pt !important;
+}
+
+/* TEXT COLOR */
+.text-purple {
+    color: #6644C5 !important;
+}
+
+.text-grey {
+    color: #343434;
+}
+
+/* BUTTON */
+.btn-outline-purple {
+    color: #6644C4;
+    border-color: #6644C4;
+    background-color: #F6EEFF;
+}
+
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #6644C4;
+    border-color: #6644C4
+}
+
+
+@media screen and (min-width: 800px) {
+    .main-container {
+        width: 400px;
+    }
+}

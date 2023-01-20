@@ -1,0 +1,356 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEPAY - Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container main-content">
+        <div class="top-content text-light d-flex">
+            <div class="d-flex w-75">
+                <img src="assets/image/icon/wifian.png" alt="" class="img-fluid" width="50">&nbsp;
+                <span class="mt-2 ms-1"><b>PT WIFIAN SOLUTION</b></span>
+            </div>
+            <div class="dropdown text-end w-25">
+                <button class="btn btn-sm dropdown-toggle p-1 bg-light text-dark" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="assets/image/icon/id-logo.png" alt="" class="img-fluid" width="10">&nbsp; 
+                    <span class="fs-8">ID</span>
+                </button>
+                <ul class="dropdown-menu dropdown-lang">
+                    <li>
+                        <a class="dropdown-item p-1" href="#">
+                            <img src="assets/image/icon/en-logo.png" class="img-fluid" width="10">&nbsp; 
+                            <span class="fs-8">EN</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content bg-light">
+            <div class="d-flex mt-2">
+                <div class="w-75">
+                    <p><b><i class="bi bi-cart"></i>&nbsp; Order Summary</b></p>
+                </div>
+                <div class="w-25 text-end">
+                    <a class="btn btn-outline-purple btn-sm fs-10" role="button" data-bs-toggle="collapse" href="#collapseDetail" aria-expanded="false"
+                        aria-controls="collapseExample">
+                        <i class="bi bi-eye-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="w-100 mb-3">
+                <div class="collapse" id="collapseDetail">
+                    <div class="card card-body">
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>1 x HELIUM 10mbps</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 165.000</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Subtotal</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 165.000</b></p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Admin</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 5.000</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Total</p>
+                            </div>
+                            <div class="w-50 text-end text-purple">
+                                <h5><b>IDR 5.000</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-danger">
+                <p><b>Pay Before 29 December 2022 09:00 PM</b></p>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <img src="assets/image/icon/bank.png" alt="" class="img-fluid" width="40">&nbsp; Bank
+                            Transfer
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/mandiri.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Bank Mandiri</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/bni.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>BNI</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/bri.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>BRI</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/bca.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>BCA</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/cimb.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>CIMB Niaga</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/permata.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Bank Permata</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/danamon.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Bank Danamon</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/maybank.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Maybank</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/bank/hana.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Hana Bank</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <img src="assets/image/icon/ewallet.png" alt="" class="img-fluid" width="40">&nbsp; QRIS /
+                            EWALLET
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/ewallet/gopay.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Gopay</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/ewallet/ovo.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>OVO</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/ewallet/shopeepay.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Shopeepay</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/ewallet/dana.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Dana</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="list-bank mb-4">
+                                <a href="#" class="text-decoration-none text-grey">
+                                    <div class="d-flex">
+                                        <div class="d-flex w-75">
+                                            <img src="assets/image/ewallet/linkaja.png" alt="" class="img-fluid">
+                                            <div class="ms-2 pt-1">
+                                                <b>Linkaja</b>
+                                                <p class="mb-0 text-muted">Biaya admin Rp. 300</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-25 text-end mt-3">
+                                            <i class="bi bi-arrow-right-circle fs-4"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center">
+            Copyight of <a href="#" class="fs-9">PT. Indosoft Digital Enigma</a><br>
+            All rights reserved
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

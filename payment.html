@@ -1,0 +1,172 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEPAY - Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container main-content">
+        <div class="top-content text-light d-flex">
+            <div class="d-flex w-75">
+                <img src="assets/image/icon/wifian.png" alt="" class="img-fluid" width="50">&nbsp;
+                <span class="mt-2 ms-1"><b>PT WIFIAN SOLUTION</b></span>
+            </div>
+            <div class="dropdown text-end w-25">
+                <button class="btn btn-sm dropdown-toggle p-1 bg-light text-dark" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/image/icon/id-logo.png" alt="" class="img-fluid" width="10">&nbsp;
+                    <span class="fs-8">ID</span>
+                </button>
+                <ul class="dropdown-menu dropdown-lang">
+                    <li>
+                        <a class="dropdown-item p-1" href="#">
+                            <img src="assets/image/icon/en-logo.png" class="img-fluid" width="10">&nbsp;
+                            <span class="fs-8">EN</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content bg-light">
+            <div class="d-flex mt-2">
+                <div class="w-75">
+                    <p><b><i class="bi bi-cart"></i>&nbsp; Order Summary</b></p>
+                </div>
+                <div class="w-25 text-end">
+                    <a class="btn btn-outline-purple btn-sm fs-10" role="button" data-bs-toggle="collapse"
+                        href="#collapseDetail" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="bi bi-eye-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="w-100 mb-3">
+                <div class="collapse" id="collapseDetail">
+                    <div class="card card-body">
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>1 x HELIUM 10mbps</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 165.000</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Subtotal</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 165.000</b></p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Admin</p>
+                            </div>
+                            <div class="w-50 text-end">
+                                <p><b>IDR 5.000</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex">
+                            <div class="w-50 text-start">
+                                <p>Total</p>
+                            </div>
+                            <div class="w-50 text-end text-purple">
+                                <h5><b>IDR 5.000</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mb-4">
+                <img src="assets/image/bank/mandiri.png" alt="" class="img-fluid" width="100">
+            </div>
+            <div class="text-center text-danger mb-4">
+                <p><b>Pay Before 29 December 2022 09:00 PM</b></p>
+            </div>
+            <div class="card card-body mb-5">
+                <div class="mb-4">
+                    <p class="mb-0">Virtual Account</p>
+                    <div class="d-flex">
+                        <div class="w-75">
+                            <h2>1234987283992</h2>
+                        </div>
+                        <div class="w-25 text-end">
+                            <a href="#" class="text-dark btn-copy"><i class="bi bi-clipboard fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <p class="mb-0">Virtual Account Name</p>
+                    <h2>PT WIFIAN SOLUTION</h2>
+                </div>
+                <div class="mb-4">
+                    <p class="mb-0">Amount to Pay</p>
+                    <div class="d-flex">
+                        <div class="w-75">
+                            <h2>IDR 170.000</h2>
+                        </div>
+                        <div class="w-25 text-end">
+                            <a href="#" class="text-dark btn-copy"><i class="bi bi-clipboard fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-payment">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">ATM</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">I-Banking</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                            type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">M-Banking</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="card card-body card-payment mb-4">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <b>Step1: Finding Nearest ATM</b>
+                        <ul>
+                            <li>By inserting your ATM Card and PIN</li>
+                        </ul>
+                        <b>Step2: Payment Details</b>
+                        <ul>
+                            <li>Select menu “Transaksi Lainnya”</li>
+                            <li>Select Payment with Virtual Account</li>
+                            <li>Insert the Virtual Number at input column</li>
+                        </ul>
+                        <b>Step3: Done Payment</b>
+                        <ul>
+                            <li>Choose OK for next the process</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">...</div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">...</div>
+                </div>
+            </div>
+            <button class="btn btn-outline-purple w-100">Back</button>
+        </div>
+        <div class="footer text-center">
+            Copyight of <a href="#" class="fs-9">PT. Indosoft Digital Enigma</a><br>
+            All rights reserved
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
